@@ -1,0 +1,40 @@
+@import url(./styles/styles.css);
+
+.wrapper {
+  max-width: 100vw;
+  height: 671px;
+  display: flex;
+  justify-content: center;
+  margin: 0 24px;
+}
+
+.slider {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 671px;
+  display: flex;
+  animation: slideshow 28s linear infinite;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  margin: 0 30px;
+  border-radius: 15px;
+  border: 1px solid #1a1a1a;
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
