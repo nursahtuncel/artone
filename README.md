@@ -10,12 +10,3 @@ Bu proje, modern web tasarımları için geliştirilmiş etkileşimli bir **Head
 - **Etkileşim:** JavaScript (ES6+)
 
 
-## 📦 Kurulum ve Çalıştırma
-
-Projeyi lokalinizde incelemek için aşağıdaki adımları izleyebilirsiniz:
-
-1. **Projeyi Klonlayın:**
-   
-```bash
-   # Eğer projeyi GitHub'a yüklediyseniz bu linki kendi depo linkinizle değiştirin
-   git clone [https://github.com/nursahtuncel/artone-header.git](https://github.com/nursahtuncel/artone-header.git)
